@@ -1,0 +1,42 @@
+{
+  "id": "sglvaldropdownbaseonjson",
+  "name": "sglvaldropdownbaseonjson",
+  "srcdoc": "./build/index.html",
+  "fieldTypes": [
+    "Symbol"
+  ],
+  "parameters":{
+    "instance":[
+      {
+        "id": "ContentTypeFieldName",
+        "type": "Symbol",
+        "name": "ConentType Field Name",
+        "description": "The field that has the list of content types"
+      },
+      {
+        "id": "ContentFieldFieldName",
+        "type": "Symbol",
+        "name": "Conent Field list Field Name",
+        "description": "The field that has the list of content fields"
+      },
+      {
+        "id": "Dropdown4TypeOrField",
+        "type": "Symbol",
+        "name": "Dropdown for Content Type or Field",
+        "description": "ContentType for type or ContentField for field"
+      },
+      {
+        "id": "ContentTypeDependencyEntryID",
+        "type": "Symbol",
+        "name": "EntryID of ContentType",
+        "description": "The EntryID of the entry storing list of content types"
+      },
+      {
+        "id": "ContentFieldDependencyEntryID",
+        "type": "Symbol",
+        "name": "EntryID of ContentField",
+        "description": "The EntryID of the entry storing list of content fields"
+      }
+    ]
+  }
+}

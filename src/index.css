@@ -1,0 +1,21 @@
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.singleSelectRaw {
+  padding:5px;
+  height: 50px;
+}
+.singleSelectRaw select {
+  padding:10px 0 10px 5px;
+  font-family: sans-serif;
+  color: rgb(92, 92, 104);
+  border-color: lightgray;
+  width: 90%;
+}
